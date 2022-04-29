@@ -20,6 +20,3 @@ for i in range(range):
         primesList.append(i)
 
 print(primesList)
-
-# Comment to test commits in Visual Studio Code
-# Test

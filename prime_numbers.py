@@ -12,8 +12,10 @@ def is_prime(x):
 
     return prime
 
+x = int(input("How many numbers should the program check?: "))
 primesList = []
-for i in range(100000):
+
+for i in range(x):
     if is_prime(i):
         primesList.append(i)
 
